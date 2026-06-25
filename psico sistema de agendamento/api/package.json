@@ -1,0 +1,20 @@
+{
+  "name": "psicoconnect-api-integracoes",
+  "version": "1.0.0",
+  "description": "API de teste para pagamentos e Google Meet do PsicoConnect",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "googleapis": "^144.0.0",
+    "mercadopago": "^2.3.0",
+    "stripe": "^17.5.0",
+    "pg": "^8.13.1"
+  }
+}
